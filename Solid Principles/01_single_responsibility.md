@@ -50,7 +50,7 @@ public class Order{
     }
 }
 ```
-- Responsibilities: Calculating, Saving to DB, Display
+- Responsibilities: Saving to DB, Display
 
 # Good Example
 ```java
@@ -78,7 +78,7 @@ public class Order{
     }
 }
 
-// Basiness Logic
+// Business Logic
   
 public class OrderDisplay{
     public void print(List<string> items){

@@ -90,7 +90,7 @@ public class OldPrinter implements Printer{
 
 public class Demo{
     public static void main(String[] args){
-        Document doc - new Document("Hi");
+        Document doc = new Document("Hi");
 
         //Client 1: only printer
         Printer simplePrinter = new OldPrinter();
